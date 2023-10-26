@@ -5,6 +5,7 @@
           box-sizing: border-box;
 }
 
+
 .service {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,4 +71,90 @@
 }
 .service__card-text {
   margin-bottom: 38px;
+}
+
+
+.header {
+  padding: 28px 165px 50px;
+  background-color: #ebe3cc;
+  background-image: url("../img/hero-backgr.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+
+}
+.header__container {
+}
+
+.header__nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.header__logo {
+  font-size: 21px;
+  color: #062D3E;
+}
+.header__menu {
+  display: flex;
+  gap: 44px;
+}
+
+.header__menu-item {
+  text-decoration: none;
+  color: #062D3E;
+  font-size: 14px;
+}
+
+.header__menu-item:hover {
+  color: #fff;
+}
+
+.header__button-sign-up {
+  padding: 12px 32px;
+  color: #fff;
+  background-color: inherit;
+  border: 2px solid #fff;
+  border-radius: 190px;
+  font-size: 20px;
+}
+.header__info {
+  max-width: 700px;
+  margin-bottom: 100px;
+}
+.header__places {
+  font-size: 24px;
+  color: #189CAB;
+  margin-bottom: 52px;
+  margin-left: 103px;
+}
+
+.header__places::before {
+  content: '';
+  background-image: url("../img/Frame.svg");
+}
+
+.header__title {
+  font-size: 96px;
+  color: #062D3E;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.header__title-accent {
+  color: #ED5C01;
+  font-weight: normal;
+}
+
+.header__button-learn-more {
+  padding: 16px 36px;
+  font-size: 20px;
+  background-color: #ED5C01;
+  color: #fff;
+  border-radius: 247px;
+  line-height: 38px;
+  border: inherit;
 }
