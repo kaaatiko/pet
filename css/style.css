@@ -76,13 +76,9 @@
 
 .header {
   padding: 28px 165px 50px;
-  background-color: #ebe3cc;
-  background-image: url("../img/hero-backgr.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right bottom;
-
+  background: url("../img/dog.png") right center / 496px 705px no-repeat, url("../img/hero-backgr.png") right bottom / auto no-repeat;
 }
+
 .header__container {
 }
 
@@ -152,6 +148,8 @@
   color: #ED5C01;
   font-weight: normal;
 }
+
+.header__title-accent
 
 .header__button-learn-more {
   padding: 16px 36px;
