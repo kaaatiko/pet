@@ -134,6 +134,10 @@
 .header__places::before {
   content: '';
   background-image: url("../img/Frame.svg");
+  width: 67px;
+  height: 48px;
+  display: inline-block;
+  transform: translate(-10px, 35px);
 }
 
 .header__title {
